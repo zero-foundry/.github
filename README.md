@@ -12,10 +12,12 @@ instructions.
 
 - Pull request template
 - Repository ruleset policy documentation
+- Importable repository ruleset JSON
 
 ## Operational Policy
 
 - [Repository rulesets](docs/repository-rulesets.md)
+- [Zero CI/CD ruleset JSON](rulesets/zero-ci-cd.json)
 
 ## Related Repositories
 
