@@ -11,6 +11,11 @@ instructions.
 ## Included Defaults
 
 - Pull request template
+- Repository ruleset policy documentation
+
+## Operational Policy
+
+- [Repository rulesets](docs/repository-rulesets.md)
 
 ## Related Repositories
 
