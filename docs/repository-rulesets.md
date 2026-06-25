@@ -10,6 +10,12 @@ repository rules.
 
 ## Baseline Ruleset
 
+Importable JSON:
+
+```text
+rulesets/zero-ci-cd.json
+```
+
 Name:
 
 ```text
@@ -58,7 +64,15 @@ This means the ruleset requires the Pull Request workflow and review-thread
 hygiene, but does not yet require another person to approve. This is useful
 while repositories are being bootstrapped by a small team or solo maintainer.
 
-## Exported Shape
+## Importable Shape
+
+Use [`../rulesets/zero-ci-cd.json`](../rulesets/zero-ci-cd.json) as the
+portable baseline for importing or recreating the ruleset.
+
+The importable JSON intentionally omits repository-specific export fields such
+as `id`, `source`, and `source_type`.
+
+## Original Export Shape
 
 The repository-level export that this policy is based on:
 
@@ -105,7 +119,7 @@ The repository-level export that this policy is based on:
 
 The exported `id`, repository `source`, and repository `source_type` are not
 portable org-wide policy. When recreating this as an organization ruleset, use
-organization scope and select the intended repositories.
+the importable JSON, organization scope, and the intended repository target set.
 
 ## Applying To New Repositories
 
