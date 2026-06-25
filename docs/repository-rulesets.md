@@ -45,6 +45,10 @@ Repository ruleset from zero-foundry/fod-claims-automation
 The baseline protects the default branch by requiring changes to flow through
 Pull Requests and by preventing destructive history changes.
 
+Repository merge and branch cleanup settings, including automatic deletion of
+merged head branches, are tracked separately in
+[`repository-settings.md`](repository-settings.md).
+
 Required rules:
 
 - Block branch deletion.
